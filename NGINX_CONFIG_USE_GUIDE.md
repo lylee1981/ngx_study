@@ -5,7 +5,7 @@
 
 ## Command Use
 
-> client_header_timeout 10; #nginx读取客户端发送请求头的超时时间。在指定时间过后，如果客户端仍然没有发送请求头，则触发超时
+`client_header_timeout 10;` #nginx读取客户端发送请求头的超时时间。在指定时间过后，如果客户端仍然没有发送请求头，则触发超时
 
 > client_body_timeout 10; #nginx读取客户端请求体的超时时间。在指定时间过后，，如果客户端仍然没有发送请求头，则触发超时。
 
