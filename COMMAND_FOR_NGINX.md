@@ -26,5 +26,5 @@ command list
 
 **nginx upgrade binary, smooth upgrade**
 
-> kill -s SIGUSR2 \`cat /usr/local/nginx/logs/nginx.pid\`
-> kill -s SIGQUIT \`cat /usr/local/nginx/logs/nginx.pid.oldbin\`
+> kill -s SIGUSR2 \`cat /usr/local/nginx/logs/nginx.pid\` 
+> kill -s SIGQUIT \`cat /usr/local/nginx/logs/nginx.pid.oldbin\` 
