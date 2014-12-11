@@ -23,6 +23,6 @@ command list
 **nginx regenerate log**
 
 `
-mypid='/usr/local/nginx/logs/nginx.pid'
-kill -USR1 \`cat $mypid\`
+mypid='/usr/local/nginx/logs/nginx.pid' 
+kill -USR1 `cat $mypid` 
 `
