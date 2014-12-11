@@ -1,3 +1,9 @@
-##Command Manual
-command list:
-start, stop, reload, binary upgrade, regenerate log
+## Info
+command list 
+- start
+- stop
+- reload
+- binary upgrade
+- regenerate log
+
+## Command Manual
