@@ -22,7 +22,7 @@
 
 - 其他
 
-`default_server` #主要应用在`listen`指令，指明server是默认虚拟服务器，避免不处理的域名请求到达服务器后，仍然被处理。
+`default_server` #主要应用在`listen`指令，指明server是默认虚拟服务器，避免不处理的域名请求到达服务器后，仍然被处理。  
 eg:  
 `
 server {  
@@ -30,7 +30,8 @@ server {
     listen 192.168.101.126:80 default_server;  
     access_log off;  
     return 403;  
-}`
+}
+`
 
 
 
