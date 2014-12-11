@@ -22,4 +22,4 @@ command list
 
 **nginx regenerate log**
 
-> kill -USR1 `cat /usr/local/nginx/logs/nginx.pid` 
+> kill -USR1 \`cat /usr/local/nginx/logs/nginx.pid\` 
