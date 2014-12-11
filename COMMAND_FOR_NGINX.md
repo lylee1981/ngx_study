@@ -10,11 +10,11 @@ command list
 
 **nginx start**
 
-`/usr/local/nginx/sbin/nginx` 
+> /usr/local/nginx/sbin/nginx 
 
 **nginx graceful stop**
 
-`/usr/local/nginx/sbin/nginx -s quit` 
+> /usr/local/nginx/sbin/nginx -s quit 
 
 **nginx reload**
 
@@ -22,4 +22,4 @@ command list
 
 **nginx regenerate log**
 
-`kill -USR1 \`cat /usr/local/nginx/logs/nginx.pid\``
+> kill -USR1 \`cat /usr/local/nginx/logs/nginx.pid\``
