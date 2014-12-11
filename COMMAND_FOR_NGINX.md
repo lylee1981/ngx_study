@@ -24,5 +24,5 @@ command list
 
 `
 mypid='/usr/local/nginx/logs/nginx.pid' 
-kill -USR1 `cat $mypid` 
+kill -USR1 \`cat $mypid\` 
 `
