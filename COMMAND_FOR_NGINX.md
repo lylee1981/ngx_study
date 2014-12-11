@@ -5,6 +5,7 @@ command list
 - reload
 - binary upgrade
 - regenerate log
+- check nginx config
 
 ## Command Manual
 
@@ -19,6 +20,10 @@ command list
 **nginx reload**
 
 > /usr/local/nginx/sbin/nginx -s reload 
+
+**check ngx conf**
+
+> /usr/local/nginx/sbin/nginx -t
 
 **nginx regenerate log**
 
